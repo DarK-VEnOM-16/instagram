@@ -1,0 +1,28 @@
+.footer
+{
+    display: flex;
+    position: fixed;
+
+    margin-left: 30%;
+    margin-right: 0%;
+    width: 35%;
+    bottom: 0;
+    justify-content: space-between;
+    height: 30px;
+    padding: 15px 30px;
+    background-color: #FBFBFB;
+    font-size: 23px;
+    z-index: 20;
+}
+.img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image
+{
+    object-fit: cover;
+    max-width: 100%;
+}
